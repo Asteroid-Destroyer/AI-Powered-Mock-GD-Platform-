@@ -1,0 +1,16 @@
+npx create-react-app frontend
+cd frontend
+npm install axios
+
+import React from "react";
+
+function App() {
+  return (
+    <div>
+      <h1>AI GD Mock Platform</h1>
+      <button>Start Discussion</button>
+    </div>
+  );
+}
+
+export default App;
